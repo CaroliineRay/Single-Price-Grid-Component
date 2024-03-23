@@ -17,24 +17,26 @@ html {
 }
 
 body {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     font-family: "Karla", sans-serif;
     background-color: var(--LightGray);
 }
 
 .main_container {
+    width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px auto;
+    margin: 50px auto;
+    box-shadow: 10px 20px 20px rgb(194, 216, 221); 
 }
 
 header, main, footer {
-    width: 360px;
-    height: auto;
+    width: 100%;
     padding: 15px 25px;
+    height: 100%;
 }
 
 header {
@@ -45,7 +47,7 @@ header {
 
 h1 {
     color: var(--Cyan);
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 10px;
 }
 
@@ -126,7 +128,7 @@ html {
 }
 
     body {
-        width: 100%;
+        width: 90%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -135,7 +137,7 @@ html {
     }
 
     .main_container {
-        width: 600px;
+        width: 700px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto, auto;  
@@ -144,7 +146,11 @@ html {
     }
 
     header, main, footer {
-        padding: 20px 40px;
+        padding: 25px 75px 25px 45px;
+    }
+
+    main, footer {
+        padding-bottom: 40px;
     }
 
     header {
